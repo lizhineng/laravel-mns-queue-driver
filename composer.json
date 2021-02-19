@@ -1,5 +1,6 @@
 {
     "name": "lizhineng/laravel-mns-queue-drvier",
+    "description": "Laravel queue driver for MNS.",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -25,6 +26,13 @@
     "autoload-dev": {
         "psr-4": {
             "Zhineng\\QueueMns\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhineng\\QueueMns\\MnsServiceProvider"
+            ]
         }
     }
 }
