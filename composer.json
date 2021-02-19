@@ -1,5 +1,5 @@
 {
-    "name": "lizhineng/laravel-mns-queue-drvier",
+    "name": "lizhineng/laravel-mns-queue-driver",
     "description": "Laravel queue driver for MNS.",
     "type": "library",
     "license": "MIT",
