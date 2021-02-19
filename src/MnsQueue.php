@@ -14,7 +14,7 @@ class MnsQueue extends Queue implements QueueContract
     public function __construct(
         protected Client $mns,
         protected string $default,
-        bool $dispatchAfterCommit = false
+        ?bool $dispatchAfterCommit = false
     ) {
         $this->dispatchAfterCommit = $dispatchAfterCommit;
     }
